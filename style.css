@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+  }
+  .container{
+    display: flex;
+  }
+  .todo {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    background: rgba(70, 70, 70, 0.4);
+  }
+  .todo h2{
+    font-size: 30px;
+  }
+  .task-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #686868;
+  }
